@@ -1,0 +1,43 @@
+{
+  "name": "screen-break-point-info",
+  "version": "1.0.0",
+  "description": "using at local, to display current screen size break point info",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angularbinh2020/screen-break-point-info.git"
+  },
+  "keywords": [
+    "screen",
+    "break",
+    "point",
+    "info"
+  ],
+  "author": "angularbinh2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angularbinh2020/screen-break-point-info/issues"
+  },
+  "homepage": "https://github.com/angularbinh2020/screen-break-point-info#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.77",
+    "@types/react-dom": "^18.2.25",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.14.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
