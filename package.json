@@ -1,6 +1,6 @@
 {
   "name": "screen-break-point-info",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "using at local, to display current screen size break point info",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
